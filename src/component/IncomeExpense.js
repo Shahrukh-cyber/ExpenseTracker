@@ -8,7 +8,6 @@ const IncomeExpense = () => {
     .filter((amount) => amount > 0)
     .reduce((acc, currentValue) => {
       return (acc += currentValue)
-      // console.log((acc += currentValue))
     }, 0)
     .toFixed(2)
   // console.log(income)
